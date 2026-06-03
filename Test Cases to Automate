@@ -1,0 +1,38 @@
+Positive Test Cases
+
+✅ Valid email
+
+Enter registered email
+Click submit
+Verify success message
+
+✅ Reset password successfully
+
+Enter new password
+Confirm password
+Click reset
+Verify success
+Login with new password
+Negative Test Cases
+
+❌ Invalid email
+
+Enter invalid email
+Click submit
+Verify error message
+
+❌ Empty email
+
+Leave email blank
+Click submit
+Verify validation message
+
+❌ Password mismatch
+
+New password != Confirm password
+Verify error message
+
+❌ Weak password
+
+12345
+Verify password policy message
